@@ -202,5 +202,7 @@ def report_issue(data: dict):
 
     return {
         "message": "Issue reported successfully",
-        "issue_type": data.get("issue_type")
+        "order_id": data.get("order_id"),
+        "issue_type": data.get("issue_type"),
+        "description": data.get("description")
     }
