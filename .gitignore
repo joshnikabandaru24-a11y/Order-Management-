@@ -1,5 +1,4 @@
 __pycache__/
 *.pyc
-venv/
-.venv/
 orders.db
+ngrok.exe
